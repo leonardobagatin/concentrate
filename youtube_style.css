@@ -1,0 +1,26 @@
+#home-page-skeleton {
+    display: none !important;
+}
+
+#related-skeleton,
+.watch-skeleton {
+    display: none !important;
+}
+
+.ytp-videowall-still,
+.ytp-endscreen-previous,
+.ytp-endscreen-next {
+    display: none !important;
+}
+
+ytd-browse[role="main"][page-subtype="home"] #contents {
+    visibility: hidden !important;
+}
+
+ytd-watch-next-secondary-results-renderer {
+    visibility: hidden !important;
+}
+
+ytd-comments {
+    visibility: hidden !important;
+}
